@@ -5,6 +5,8 @@
     padding-top: 45px;
     padding-left: 8px;
     padding-bottom: 41px;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 720px) {

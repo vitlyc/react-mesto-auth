@@ -3,6 +3,14 @@
     @import url(./blocks/page/page.css);
     @import url(./blocks/header/header.css);
     @import url(./blocks/header/__logo/header__logo.css);
+    @import url(./blocks/header/__auth/header__auth.css);
+    @import url(./blocks/header/__email/header__email.css);
+    @import url(./blocks/auth/auth.css);
+    @import url(./blocks/auth/__confirm-button/auth__confirm-button.css);
+    @import url(./blocks/auth/__input/auth__input.css);
+    @import url(./blocks/auth/__link/auth__link.css);
+    @import url(./blocks/auth/__span/auth__span.css);
+    @import url(./blocks/auth/__title/auth__title.css);
     @import url(./blocks/profile/profile.css);
     @import url(./blocks/profile/__info/profile__info.css);
     @import url(./blocks/profile/__title/profile__title.css);
