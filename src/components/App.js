@@ -231,16 +231,12 @@ function App(props) {
 
             case '/sign-in':
                 return (
-                    <div className='header__auth'>
-                        <Link className=" auth__link" to="/sign-up">Регистрация</Link>
-                    </div>
+                    <div className='header__auth'><Link className=" auth__link" to="/sign-up">Регистрация</Link></div>
                 )
 
             case '/sign-up':
                 return (
-                    <div className='header__auth'>
-                        <Link className=" auth__link" to="/sign-in">Войти</Link>
-                    </div>
+                    <div className='header__auth'><Link className=" auth__link" to="/sign-in">Войти</Link></div>
                 )
 
             default:
@@ -265,10 +261,10 @@ function App(props) {
             <CurrentUserContext.Provider value={userInfo}>
                     <Header>
                         {headerLogStatus()}
-                    </Header>
+                        </Header>
                     <Switch>
-                        <ProtectedRoute
-                            path="/main"
+                        <ProtectedRoute 
+                        path="/main"
                             loggedIn={loggedIn}
                         component={Main} cards={cards} onEditProfile={handleEditProfileClick} isAddPlacePopupOpen={handleAddPlaceClick} onEditAvatar={handleEditAvatarClick}
                             onCardClick={handleCardClick} card={selectedCard} onCardLike={handleCardLike} onCardDelete={handleCardDelete} onSignOut={onSignOut} />

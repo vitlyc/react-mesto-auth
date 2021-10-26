@@ -43,8 +43,9 @@ const Login = ({ onLog, ...props }) => {
                 <h2 className="auth__title">Вход</h2>
                 <input className="auth__input" type="email"
                     placeholder="Email"
+                    required value={emailInput} onChange={handleChangeEmailInput}
                     minLength="2" maxLength="40"
-                    required value={emailInput} onChange={handleChangeEmailInput} />
+                     />
                 <input className="auth__input" type="text"
                     placeholder="Пароль"
                     minLength="2" maxLength="40"
