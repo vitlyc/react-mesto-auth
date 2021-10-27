@@ -3,7 +3,7 @@ import registerOk from "../images/RegisterOk.svg";
 import registerError from "../images/RegisterError.svg";
 
 function InfoToolTip(props) {
-    // console.log(props);
+    
     return ((
         < div className={props.isOpen ? `popup popup_opened popup_type_success` : `popup popup_type_success`} >
             <div className="popup__container" name={props.name} >
