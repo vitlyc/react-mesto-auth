@@ -48,5 +48,6 @@
     @import url(./blocks/popup/__image-container/popup__image-container.css);
     @import url(./blocks/popup/__close-button/popup__close-button.css);
     @import url(./blocks/popup/__close-button/_type_image/popup__close-button_type_image.css);
+    @import url(./blocks/popup/__icon/popup__icon.css);
     @import url(./blocks/footer/footer.css);
     @import url(./blocks/footer/__copyright/footer__copyright.css);

@@ -38,8 +38,7 @@ const Login = ({ onLog, ...props }) => {
     };
 
        return (
-        <>
-            <form className="auth" onSubmit={handleSubmit}>
+                   <form className="auth" onSubmit={handleSubmit}>
                 <h2 className="auth__title">Вход</h2>
                 <input className="auth__input" type="email"
                     placeholder="Email"
@@ -53,8 +52,7 @@ const Login = ({ onLog, ...props }) => {
                 <button className="auth__confirm-button" type="submit">Войти</button>
                 {props.children}
             </form>
-        </>
-    );
+           );
 };
 
 export default Login;

@@ -3,3 +3,7 @@
     justify-self: center;
     margin: 0 auto 15px;
 }
+
+img.popup__icon {
+    width: 120px;
+}
